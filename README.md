@@ -73,11 +73,12 @@ localhost:80/docs
 
 ![post](img/update.png)
 
+---
 4 - DELETE
 
 ![post](img/delete.png)
 
-
+---
 5 - GET após delete.
 
 ![post](img/get-vazio.png)
