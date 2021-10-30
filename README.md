@@ -44,7 +44,7 @@ Neste caso somente o nginx e o banco dão o Expose em uma porta para o container
 
 ## Subir os containers
 
-Tudo que a aplicação precisa já é criado e configurado, então é só testar usando a doc gerada automaticamente acessando a url informada abaixo.
+Tudo que a aplicação precisa já é criado e configurado quando sobimos os containers, então é só testar usando a doc gerada automaticamente acessando a url informada abaixo.
 
 1 - Execute o comando abaixo no terminal.
 ``` shell
