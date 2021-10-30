@@ -42,7 +42,7 @@ Dentro do dockerfile na raiz do projeto tem as instruções de como deve ser cri
 O docker compose é o responsável por conectar os containers na mesma rede e criar o link entre eles por meio da rede backedn e default, é usado tag depends_on para criar uma conexão entre os containers.
 Neste caso somente o nginx e o banco dão o Expose em uma porta para o container.
 
-## Executar os containers
+## Subir os containers
 
 1 - Execute o comando abaixo no terminal.
 ``` shell
@@ -55,3 +55,29 @@ localhost:80/docs
 ```
 
 3 - Veja a documentação gerada via OpenAPI.
+
+
+## Execuções
+---
+1 - POST
+
+![post](img/post.png)
+
+---
+2 - GET
+
+![post](img/get.png)
+
+---
+3 - PATCH
+
+![post](img/update.png)
+
+4 - DELETE
+
+![post](img/delete.png)
+
+
+5 - GET após delete.
+
+![post](img/get-vazio.png)
